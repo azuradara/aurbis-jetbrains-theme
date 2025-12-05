@@ -13,6 +13,7 @@ https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 
     <description><![CDATA[
         A dark theme for JetBrains IDEs.
+        Mostly for personal use, but feedback is appreciated.
     ]]></description>
 
     <change-notes><![CDATA[
