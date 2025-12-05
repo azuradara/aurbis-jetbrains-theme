@@ -1,0 +1,27 @@
+<!-- Plugin Configuration File. Read more:
+https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>aurbis-intellij-theme</id>
+    <version>0.1.0</version>
+
+    <name>Aurbis Theme</name>
+    <category>UI</category>
+
+    <vendor url="https://github.com/azuradara">Aymane Hlamnach</vendor>
+
+    <idea-version since-build="222"/>
+
+    <description><![CDATA[
+        A dark theme for JetBrains IDEs.
+    ]]></description>
+
+    <change-notes><![CDATA[
+        Initial release of Aurbis theme.
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="aurbis-dark" path="/theme/aurbis-dark.theme.json"/>
+    </extensions>
+</idea-plugin>
