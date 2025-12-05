@@ -42,8 +42,8 @@
     },
 
     "ActionButton": {
-      "hoverBackground": "#ffffff15",
-      "pressedBackground": "#ffffff1f"
+      "hoverBackground": "#333333",
+      "pressedBackground": "#404040"
     },
 
     "Button": {

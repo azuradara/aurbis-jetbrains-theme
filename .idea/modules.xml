@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/aurbis-intellij-theme.iml" filepath="$PROJECT_DIR$/aurbis-intellij-theme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aurbis-theme.iml" filepath="$PROJECT_DIR$/aurbis-theme.iml" />
     </modules>
   </component>
 </project>
