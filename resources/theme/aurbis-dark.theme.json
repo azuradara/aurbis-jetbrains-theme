@@ -2,10 +2,22 @@
   "name": "Aurbis Dark",
   "author": "Aymane Hlamnach",
   "dark": true,
+  "parentTheme": "Islands Dark",
 
   "editorScheme": "/token/aurbis-dark.xml",
 
   "ui": {
+    "Islands": 1,
+
+    "Island": {
+      "arc": 20,
+      "arc.compact": 16,
+      "borderWidth": 5,
+      "borderWidth.compact": 4,
+      "borderColor": "#050505",
+      "inactiveAlpha": 0.44
+    },
+
     "*": {
       "background": "#050505",
       "foreground": "#8A8A8A",
@@ -131,6 +143,9 @@
       "inactiveUnderlineColor": "#999999",
 
       "underlinedTabBackground": "#0d0d0d",
+      "underlinedBorderColor": "#aaaaaa",
+      "inactiveUnderlinedTabBackground": "#0a0a0a",
+      "inactiveUnderlinedTabBorderColor": "#999999",
       "inactiveColoredFileBackground": "#00000000"
     },
 
@@ -324,7 +339,8 @@
       "endBackground": "#66b395"
     },
 
-    "StatusBar.borderColor": "#ffffff15",
+    "StatusBar.borderColor": "#00000000",
+    "ToolWindow.Stripe.borderColor": "#00000000",
 
     "TabbedPane.": {
       "underlineColor": "#aaaaaa",
@@ -360,6 +376,8 @@
     },
 
     "ToolWindow": {
+      "background": "#050505",
+
       "Header": {
         "background": "#050505",
         "inactiveBackground": "#0a0a0a"
@@ -414,6 +432,7 @@
     },
 
     "MainToolbar": {
+      "borderColor": "#00000000",
       "Icon": {
         "borderInsets": "10,10,10,10",
         "background": "#000000",
